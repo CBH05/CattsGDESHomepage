@@ -1,0 +1,22 @@
+p {
+    background-color:aquamarine;
+    color:rgb(255,100,50,0.5);
+    /*fix color*/
+    border-width:5px;
+    border-style:dashed;
+    padding:50px;
+    margin:50px;
+
+    width:200px;
+    height:200px;
+    overflow:auto;
+}
+
+.banner {
+    background-color:blue;
+}
+
+img {
+    max-width:100px;
+}
+
