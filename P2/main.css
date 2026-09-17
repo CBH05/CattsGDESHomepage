@@ -1,0 +1,60 @@
+body{
+     Background-image: url('Screenshot\ 2026-09-15\ at\ 13.05.47.png');
+     background-size:cover;
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+
+     .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width: 100%;
+
+     }
+    }
+
+
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    margin-top: 150px;
+
+
+
+}
+
+h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+   
+
+
+
+}
+
+
+* {
+    box-sizing: border-box;
+
+
+}
+
+img{
+    max-width: 100%;
+}
+
+ p{
+        padding:10px;
+            width:600px;
+            background-color: lightgray;
+        }
+
+  a{
+    background-color:lightgray;
+  }

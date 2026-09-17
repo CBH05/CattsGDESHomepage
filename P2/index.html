@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Catt's Little Internet Box</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="icon" type="image/ico" href="favicon.ico"></link>
+
+        <style>
+          h1 {
+            text-align: center;
+          }
+
+          h3{
+            text-align: center;
+          }
+        </style>
+         
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+   
+      <h1>Welcome!</h1>
+
+      <h3>A world of <i>passion</i></h3>
+      
+
+    <div class="center">
+    
+    <!-- Your drop-down menu -->
+    <select id="page-navigator" onchange="navigateToPage()">
+      <option value="" disabled selected>Pick a Destination...</option>
+      <option value="My Passion.html">My Passion</option>
+      <option value="My Work.html">My Work</option>
+    </select>
+
+  </div>
+
+  <script>
+    function navigateToPage() {
+      const dropdown = document.getElementById("page-navigator");
+      const targetPage = dropdown.value;
+      
+      if (targetPage) {
+        window.location.href = targetPage;
+      }
+    }
+  </script>
+
+
+    </body>
+</html>
