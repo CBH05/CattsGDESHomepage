@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+
+
+}
+
+img{
+    max-width: 100%;
+}
+
+/* row flexbox::
+main axis=horixontal(x)
+cross axis= vertical(y)
+
+column felxbox
+main-axis=vertical(y)
+cross-axis=horizontal(x)
+*/
+.container{
+
+    background-color:lightblue;
+    padding: 10px;
+    height: 600px;
+    display: flex;
+    flex-direction:row; 
+    /* by default flexboxes will render in the row layout */
+    
+    /* jusitfy content will align items along the main axis */
+    justify-content:space-evenly;
+
+    
+    align-items:center;
+    
+}
+
+.item{
+    background-color:aquamarine;
+    padding: 10px;
+    border: 1px solid;
+    width: 200px;
+}
