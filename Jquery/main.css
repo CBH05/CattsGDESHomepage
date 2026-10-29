@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+
+
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    margin:0;
+}
+
+.container {
+    background: lightblue;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container.dark{
+    background:rgb(36, 36, 80);
+}
+
+.box.dark{
+    background:rgb(21, 21, 36);
+}
+
+
+.box{
+    background-color:lightslategray;
+    width: 100px;
+    height: 100px;
+
+}
+
+.button{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.dark{
+    background-color:darkslateblue;
+}
+
